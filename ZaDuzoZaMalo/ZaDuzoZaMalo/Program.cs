@@ -7,12 +7,19 @@ namespace ZaDuzoZaMalo
         static void Main(string[] args)
         {
             Game g = new Game(1, 10);
-            Game.Odp odp = g.Ocena(5);
+            
+            Console.WriteLine("Podaj liczbe:");
+            Game.Odp odp = g.Ocena(int.Parse(Console.ReadLine()));
             Console.WriteLine( odp );
-            if (odp != Game.Odp.Trafiono)
+            while (odp != Game.Odp.Trafiono)
+            {
+                odp = g.Ocena((int.Parse(Console.ReadLine())));
+                Console.WriteLine(odp);
+            }
+            /*if (odp != Game.Odp.Trafiono)
                 odp = g.Ocena(7);
             if (odp != Game.Odp.Trafiono)
-                odp = g.Ocena(3);
+                odp = g.Ocena(3);*/
 
             foreach( var ruch in g.Historia )
             {
