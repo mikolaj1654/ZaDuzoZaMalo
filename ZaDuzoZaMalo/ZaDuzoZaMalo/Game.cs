@@ -13,6 +13,8 @@ namespace ZaDuzoZaMalo
         private readonly int wylosowana;
         public readonly int zakresOd;
         public readonly int zakresDo;
+        
+        
         public int LicznikRuchow { get; private set; }
 
         //historia gry: propozycja, ocena, kiedy
@@ -36,6 +38,7 @@ namespace ZaDuzoZaMalo
             wylosowana = generator.Next(zakresOd, zakresDo + 1);
             StanGry = Stan.Trwa;
             historia = new List<Ruch>();
+            Program.NumberOfSessions++;
         }
         public Odp Ocena( int propozycja )
         {
@@ -45,6 +48,17 @@ namespace ZaDuzoZaMalo
             {
                 odp = Odp.Trafiono;
                 StanGry = Stan.Odgadnieta;
+                LicznikRuchow++;
+                
+                if (Program.NumberOfSessions == 1)
+                    Program.BestScore = LicznikRuchow;
+                else
+                {
+                    if (Program.BestScore>=LicznikRuchow)
+                    {
+                        Program.BestScore = LicznikRuchow;
+                    }
+                }
             }
             else if (wylosowana < propozycja)
                 odp = Odp.ZaDuzo;
@@ -62,6 +76,7 @@ namespace ZaDuzoZaMalo
         {
             StanGry = Stan.Poddana;
         }
+
         public int? Wylosowana
         {
             get
@@ -92,5 +107,6 @@ namespace ZaDuzoZaMalo
                 Licznik++;
             }
         }
+        
     }
 }
