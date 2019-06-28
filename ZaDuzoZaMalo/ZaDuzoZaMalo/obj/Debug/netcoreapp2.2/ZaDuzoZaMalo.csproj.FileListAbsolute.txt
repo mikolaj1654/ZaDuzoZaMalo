@@ -1,0 +1,11 @@
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/bin/Debug/netcoreapp2.2/ZaDuzoZaMalo.deps.json
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/bin/Debug/netcoreapp2.2/ZaDuzoZaMalo.runtimeconfig.json
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/bin/Debug/netcoreapp2.2/ZaDuzoZaMalo.runtimeconfig.dev.json
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/bin/Debug/netcoreapp2.2/ZaDuzoZaMalo.dll
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/bin/Debug/netcoreapp2.2/ZaDuzoZaMalo.pdb
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.csprojAssemblyReference.cache
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.csproj.CoreCompileInputs.cache
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.AssemblyInfoInputs.cache
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.AssemblyInfo.cs
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.dll
+/Users/macbookpro2017/Projects/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/ZaDuzoZaMalo/obj/Debug/netcoreapp2.2/ZaDuzoZaMalo.pdb

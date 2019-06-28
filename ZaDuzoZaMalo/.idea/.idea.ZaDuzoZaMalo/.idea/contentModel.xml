@@ -7,6 +7,10 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="ZaDuzoZaMalo" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Game.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="PlayerModel.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
